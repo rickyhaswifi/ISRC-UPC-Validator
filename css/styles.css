@@ -1,0 +1,7 @@
+.group {
+  padding: 2rem;
+}
+
+#UPCResponse, #ISRCResponse{
+  margin: 10px;
+}
