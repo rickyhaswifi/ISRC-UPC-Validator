@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ISRC UPC Validator</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+</head>
+<body>
+  <section class="ui container">
+    <br />
+    <br />
+    <form class="ui form">
+      <label>Validate UPC</label>
+      <sub>Example UPC: 614608977338</sub>
+      <input id="UPCInput" type="text" placeholder="614608977338">
+      <p id="UPCvalid" class=""></p>
+    </form>
+    <button class="ui button" onclick="ValidateUPC()">Validate UPC</button>
+    <button class="ui button" onclick="ResetUPC()">Reset</button>
+    <br />
+    <hr />
+    <br />
+    <form class="ui form">
+      <label>Validate ISRC</label>
+      <input id="ISRCInput" type="text" placeholder="QZDQH1830439">
+      <h1 id="ISRCvalid" class=""></h1>
+    </form>
+    <button class="ui button" onclick="ValidateISRC()">Validate ISRC</button>
+    <button class="ui button" onclick="ResetISRC()">Reset</button>
+  </section>  
+
+  <script src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+</body>
+</html>
